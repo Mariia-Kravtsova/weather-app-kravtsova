@@ -4,7 +4,129 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Weather app_Kravtsova_Mariia</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>
+        "Wherever you go, no matter what the weather,
+        <br />
+        always bring your own sunchine"
+      </h1>
+      <form id="search-form">
+        <label class="location" for="text"> Enter the location, please: </label>
+        <input class="lviv" type="text" autocomplete="off" placeholder="Lviv" id="search-text-input" />
+      <input type ="submit" value="search" id="button"/>
+      <input type ="submit" value="current" id="button-location"/>
+   
+      </form>
+    </div>
+   
+    <br />
+    <h3 id="city"></h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4"><h2 id="current-date"> Date </h2>
+       <span id="icon"> &#127783 </span> </div>
+        <div class="col-sm-8">
+            <ul>
+                <li class="details"> <span class= "temperature" id="current-temperature"> 15 </span>
+             <span class="units"> <a href="#" id="celsius-link">°C | </a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  >
+                </li>
+                  <li class="details" id="humidity"> Humidity 88% </li>
+                   <li class="details" id="uvi"> UV Index - 0 of 10 </li>
+                    <li class="details" id="wind-speed"> Wind 5 m/s NW </li>
+                    <li class="details" id="pressure"> Pressure </li>
+<li class="details" id="weather-description"> Weather description </li>
+            </ul>
+        </div>
+        <br />
+        <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      July, 15
+      <div class="details">
+          <ul>
+                <li class="details"> 15° C </li>
+                  <li class="details"> Humidity 88% </li>
+                   <li class="details"> UV Index - 0 of 10 </li>
+                    <li class="details"> Wind 5 m/s NW </li>
+            </ul>
+      </div>
+    </div>
+    <div class="col-sm">
+    July, 16
+    <div class="details">
+          <ul>
+                <li class="details"> 15° C </li>
+                  <li class="details"> Humidity 88% </li>
+                   <li class="details"> UV Index - 0 of 10 </li>
+                    <li class="details"> Wind 5 m/s NW </li>
+            </ul>
+      </div>
+    </div>
+    <div class="col-sm">
+     July, 17
+     <div class="details">
+          <ul>
+                <li class="details"> 15° C </li>
+                  <li class="details"> Humidity 88% </li>
+                   <li class="details"> UV Index - 0 of 10 </li>
+                    <li class="details"> Wind 5 m/s NW </li>
+            </ul>
+      </div>
+    </div>
+     <div class="col-sm">
+      July, 18
+      <div class="details">
+          <ul>
+                <li class="details"> 15° C </li>
+                  <li class="details"> Humidity 88% </li>
+                   <li class="details"> UV Index - 0 of 10 </li>
+                    <li class="details"> Wind 5 m/s NW </li>
+            </ul>
+      </div>
+    </div>
+     <div class="col-sm">
+      July, 19
+      <div class="details">
+          <ul>
+                <li class="details"> 15° C </li>
+                  <li class="details"> Humidity 88% </li>
+                   <li class="details"> UV Index - 0 of 10 </li>
+                    <li class="details"> Wind 5 m/s NW </li>
+            </ul>
+      </div>
+    </div>
+  </div>
+</div>
+        
+    </div>
+    <img src="images/sunflower.webp" alt="weather quote" />
+
+      <script src= "src/app.js"></script>
+     
+  </body>
 </html>

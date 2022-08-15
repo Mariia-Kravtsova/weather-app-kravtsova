@@ -1,0 +1,108 @@
+
+
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  background-color: #CDE9FF;
+ 
+}
+.lviv {
+  font-size: 26px;
+  font-family: 'Edu SA Beginner', cursive; 
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 6px;
+  margin-bottom: 18px;
+}
+.location {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 29px;
+}
+
+#button {
+  position: relative;
+  top: -62px;
+  left: 710px;
+  background-color: #CDE9FF;
+  border-radius: 10px;
+  padding: 3px 16px;
+  border: 1px solid rgb(255, 255, 255);
+  transition: all 150ms ease-in-out;
+  font-family: 'Edu SA Beginner', cursive;
+ font-size: 22px;
+}
+#button:hover {
+background-color: #76DEFF;
+}
+
+#button-location{
+  position: relative;
+  top: -62px;
+  left: 739px;
+  background-color: #FDFA01;
+  border-radius: 10px;
+  padding: 3px 16px;
+  border: 1px solid rgb(255, 255, 255);
+  transition: all 150ms ease-in-out;
+  font-family: 'Edu SA Beginner', cursive;
+  font-size: 22px;
+}
+
+#button-location:hover {
+  background-color: #76DEFF;
+}
+
+#city {
+padding-left: 254px;
+  font-size: 4rem;
+  margin-left: 106px;
+    font-family: 'Edu SA Beginner', cursive;
+    color: rgb(75, 143, 252);
+
+}
+#current-date {
+padding-left: 15px;
+  font-size: 2rem;
+  margin-left: 28px;
+  padding-top: 36px;
+
+}
+
+#icon {
+
+  font-size: 42px;
+}
+.col-sm-4 {
+  font-size: 48px;
+  background-color: #CDE9FF;
+}
+ .details {
+    font-size: 22px;
+
+ }
+
+ .col-sm {
+  margin-top: 137px;
+  font-size: 22px;
+  background-color: #CDE9FF;}
+  .details {
+    font-size: 22px;
+    background-color: #fff;
+  }
+
+ 
+ 
+img {
+    display: block;
+      margin: 0 auto;
+      width: 400px;
+      position: relative;
+      right: -365px;
+      top: -557px;
+  }
+ 
